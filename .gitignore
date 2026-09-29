@@ -1,0 +1,16 @@
+# Virtualenv — recreate with: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Note: results/ is intentionally NOT ignored — the generated tables, charts and
+# raw per-request JSON are part of the reported evidence.
+
+# Windows download-provenance streams (e.g. file.pdf:Zone.Identifier)
+*.Zone.Identifier
+
+# Local tooling state, not part of the project
+.remember/
+.claude/
